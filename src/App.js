@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './Components/Navbar';   
 import Textform from './Components/Textform';
 import { useState } from 'react';
 import About from './Components/About'; 
-import { BrowserRouter as Router, Routes, Route, Link ,Switch} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   const [mode, setMode] = useState('light');
